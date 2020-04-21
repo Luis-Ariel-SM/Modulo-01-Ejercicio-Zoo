@@ -23,7 +23,7 @@ def valida_edad (edad):
     except:
         return False
 
-# Funcion para la entrada de datos, se llama a la funcion de validacion en la misma, se itera hasta lograr el dato correcto.
+# Funcion pa la entrada de datos, se llama a la funcion de validacion en la misma, se itera hasta lograr el dato correcto.
 def pedir_edad ():
     screen_modulo.locate(1,1)
     edad = input ("¿Que edad tienes? ")
