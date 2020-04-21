@@ -1,6 +1,6 @@
 import screen_modulo
 
-# Funcion para calcular los precios segun rango de edad
+# Funcion pa calcular los precios segun rango de edad
 def calcular_precio_entrada (edad):
     if edad > 0 and edad <= 2:
         precio = 0
